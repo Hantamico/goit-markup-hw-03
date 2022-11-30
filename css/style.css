@@ -4,6 +4,7 @@ body{
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 h1,
@@ -42,13 +43,17 @@ ul {
 }
 
 .catalog-section{
-    padding: 120px 0 0 0;
+    padding-bottom: 120px;
     padding-top: 0px;
 }
 
 .catalog-link{
     text-decoration: none;
     color: #2e2f42;
+}
+
+.heading-color{
+    color: #2E2F42
 }
 
 .header{
@@ -299,11 +304,16 @@ ul {
     background-color: #F4F4FD;
     color:#4D5AE5;
     cursor: pointer;
-    margin-right: 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
 
+.filter-button{
+    margin-right: 24px;
+}
+.filter-button:last-child {
+    margin-right: 0px;
+}
 .filter-item:hover,
 .filter-item:focus{
     background: #4D5AE5;
