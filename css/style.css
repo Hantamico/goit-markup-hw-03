@@ -39,7 +39,7 @@ ul {
 
 .portfolio-section{
     padding-top: 108px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
 }
 
 .catalog-section{
@@ -188,7 +188,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px 0 15px;
+
 }
 
 
@@ -367,12 +367,11 @@ ul {
     background-color: #2E2F42;
     color: #E7E9FC;
     height: 310px;
-    
+    padding: 100px 0;
 }
 
 .footer-desc-block{
     width: 264px;
-    padding: 100px 0;
 }
 
 .footer-logo {
